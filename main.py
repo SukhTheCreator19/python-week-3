@@ -13,22 +13,7 @@ import math
 
 # # # 1.   Building a Basic Calculator
 
-
-
-
-
-
-
-
-
-
-
-
 # # # 2.   Mad Libs Game
-
-
-
-
 
 # # # Review
 # # create variables for the following :
@@ -125,7 +110,6 @@ import math
 # slides 10 -12
 #integers
 
-
 # num1 = 55
 # num2 = -55
 # print(num1 + num2)
@@ -142,24 +126,19 @@ import math
 # siblings_age = input("What is your sibling's age? ")
 # print(int(moms_age) + int(siblings_age))
 
-
 # Integers Practice
 # Declare a numeric variable named int_num that contains a value of integer type of your choice.
 # Print the data type of that variable.
 
-
 # int_num = 19
 # print(type(int_num))
-
 
 # Floats Practice
 # Declare a numeric variable named decimal_num that contains a value of float type of your choice.
 # Print the data type of that variable.
 
-
 # decimal_num = 3.14
 # print(type(decimal_num))
-
 
 # ata Types Practice
 # What type is the result of the sum of 7.5 + 2.5? Write the code to verify it.
@@ -168,12 +147,9 @@ import math
 # num2 = 2.5
 # Next, print on the screen the data type that results from the sum of both numbers.
 
-
-# num1 = 7.5 
+# num1 = 7.5
 # num2 = 2.5
 # print(type(num1 + num2))
-
-
 
 #################################Data Type conversions####################
 # slides 12 -19
@@ -208,8 +184,6 @@ import math
 
 # print("Dear {}, your associate number is: {} ".format(associate_name,associate_number))
 
-
-
 # Strings Formatting Practice #2
 # Tell the user the amount of points earned within the following phrase:
 # "You have earned (new_points) points! In total, you have accumulated (total_points) points"
@@ -219,7 +193,6 @@ import math
 # total_points = 3043
 
 # print("You earned {} points! In total, you have accumulated {} points".format(new_points,total_points))
-
 
 # Strings Formatting Practice #3
 # Tell the user the amount of points earned within the following phrase:
@@ -231,7 +204,6 @@ import math
 # new_points = 350
 # total_points = new_points + previous_points
 # print("You earned {} points! In total, you have accumulated {} points".format(new_points,total_points))
-
 
 #################################Mathematical operations####################
 # slides 20 -24
@@ -261,7 +233,6 @@ num2 = int(input("What is your second integer: "))
 print("Addition:")
 print(num1 + num2)
 
-
 # ### Multiplication
 # 3. Multiply 13 by 24.
 # 4. What is the product of 17 and 19?
@@ -272,7 +243,7 @@ print(num1 * num2)
 # 5. Divide 528 by 6.
 # 6. What is the result when 1,234 is divided by 4?
 print("Division: ")
-print(num1/num2)
+print(num1 / num2)
 
 # ### Modulo
 # 7. What is the remainder when 200 is divided by 7?
@@ -283,7 +254,7 @@ print(num1 % num2)
 # 9. Calculate \( 7^3 \).
 # 10. Find the value of \( 5^4 \).
 print("Power:")
-print(num1 ** num2)
+print(num1**num2)
 
 # ### Get the max and min of a number
 # 11. Which is greater: 345 or 453?
@@ -309,9 +280,8 @@ print(abs(num3))
 # 17. Evaluate the expression: \( 5 + 3 \times 4 - 2^2 \).
 # 18. Calculate \( 12 \div 4 + 7 - 2 \times 3 \).
 print("Order of Ops")
-print(5 + 3 * 4 - 2 ** 2)
+print(5 + 3 * 4 - 2**2)
 print(12 / 4 + 7 - 2 * 3)
-
 
 # ### Special Math Libraries
 # **Floor Method**
